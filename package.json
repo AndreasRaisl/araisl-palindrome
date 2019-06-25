@@ -1,0 +1,23 @@
+{
+  "name": "araisl-palindrome",
+  "version": "0.1.0",
+  "description": "Palindrome detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasRaisl/araisl-palindrome.git"
+  },
+  "keywords": [
+    "palindrome",
+    "javascript"
+  ],
+  "author": "Andreas Raisl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasRaisl/araisl-palindrome/issues"
+  },
+  "homepage": "https://github.com/AndreasRaisl/araisl-palindrome#readme"
+}

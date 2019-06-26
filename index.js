@@ -38,20 +38,10 @@ function Phrase(content)
 
     this.palindrome = function palindrome() 
     {
-        return this.processedContent() === this.processedContent().reverse();
+        if(this.processedContent()) return this.processedContent() === this.processedContent().reverse();
+        else return false;
     } 
 }
 
-function TranslatedPhrase(content, translation)
-{
-    this.content = content;
-    this.translation = translation; 
-    this.processedContent = function processedContent()
-    {
-        return this.translation.toLowerCase();
-    }       
-}
-
-TranslatedPhrase.prototype = new Phrase();
 
 

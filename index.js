@@ -14,8 +14,7 @@ function reverse(string)
 
 function palindrome(testString)
 {
-     return testString.toLowerCase() === reverse(testString).toLowerCase();
-    
+     return testString.toLowerCase() === reverse(testString).toLowerCase();    
 }
 
 function Phrase(content)
